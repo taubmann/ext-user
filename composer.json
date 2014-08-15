@@ -1,0 +1,39 @@
+{
+    "name": "cms-kit extension User-Management",
+    "type": "library",
+    "version": "0.7.0",
+    "description": "User- and rights-management for cms-kit",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Christoph Taubmann",
+            "email": "info@cms-kit.com"
+        }
+    ],
+    "homepage": "http://cms-kit.com",
+
+    "require": {
+        "php": ">=5.3.3",
+        "cmskit/lib-jquery-ui": "dev-master",
+        "cmskit/lib-jsoneditor": "*"
+    },
+    "extra": {
+        "wizards":  {
+            "TEXT": "wizard:jsoneditor\\nexternal:true"
+        },
+        "hooks": {
+            "acm": {
+                "description": "Access-Control-Management: control \"CUDAS\"-Actions on Objects or Entries based on user-profiles",
+                "embed": "PRE:acm"
+            },
+            "ccopy": {
+                "description": "Content-Workspaces: copy content from one to another field if approved via an (protected) third field",
+                "embed": "PRE:ccopy,if_field,from_field,to_field"
+            },
+            "filterByOwnership": {
+                "description": "Saves the first Profile-ID OR, if set to private the User-ID to an hidden Field and check against on getList",
+                "embed": "PRE:filterByOwnership,hidden_field[,(bool)private]"
+            }
+        }
+    }
+}

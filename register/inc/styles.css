@@ -1,0 +1,73 @@
+body
+{
+	font-family: Arial,	Helvetica, sans-serif;
+}
+h1, h2
+{
+	font-family: 'Georgia',	Times New Roman, Times,	serif;
+}
+h2
+{
+	color: #999;
+}
+ul
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+li
+{
+	padding: 5px;
+	/**/
+	display:none;
+	
+}
+label
+{
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+}
+label span {
+	display: none;
+}
+input, textarea, button, select
+{
+	border: solid 2px #ccc;
+	background-color: #fff;
+	font-size: 14px;
+	padding: 4px;
+	border-radius: 6px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+input, textarea, select
+{
+	width: 190px;
+	
+}
+input[type="submit"]
+{
+	border: solid 1px #ff6600;
+	background-color: #FF6600;
+	color: #fff;
+	font-size: 14px;
+	padding: 4px;
+	border-radius: 6px;
+	width: 100px;
+}
+.error
+{
+	font-size: 11px;
+	color: #cc0000;
+	padding: 4px;
+}
+
+#form
+{
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
