@@ -1,5 +1,5 @@
 {
-    "name": "cmskit/ extension User-Management",
+    "name": "cmskit/extension-user",
     "type": "library",
     "version": "0.7.0",
     "description": "User- and rights-management for cms-kit",
@@ -14,11 +14,12 @@
 
     "require": {
         "php": ">=5.3.3",
+        "cmskit/package-installer": "1.0.*@dev",
         "cmskit/lib-jquery-ui": "dev-master",
         "cmskit/lib-jsoneditor": "*"
     },
     "extra": {
-        "wizards":  {
+        "wizards": {
             "TEXT": "wizard:jsoneditor\\nexternal:true"
         },
         "hooks": {
