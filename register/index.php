@@ -180,7 +180,7 @@ foreach($jsMsgs as $v)
 ?>
 
 </script>
-<script src="../../../../vendor/cmskit/lib-jquery-ui/jquery.min.js"></script>
+<script src="../../../../vendor/cmskit/jquery-ui/jquery.min.js"></script>
 <script src="../../../inc/js/gpw.js"></script>
 <script src="inc/functions.js"></script>
 

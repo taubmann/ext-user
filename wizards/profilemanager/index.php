@@ -65,12 +65,12 @@ foreach ($objects as $k => $v)
 	<meta charset="utf-8" />
 	<?php
 	echo '
-	<script src="'.$relpath.'../vendor/cmskit/lib-jquery-ui/jquery.min.js"></script>
-	<script src="'.$relpath.'../vendor/cmskit/lib-jquery-ui/jquery-ui.js"></script>
-	<script src="'.$relpath.'../vendor/cmskit/lib-jquery-ui/jquery.ui.nestedSortable.js"></script>
-	<script src="'.$relpath.'../vendor/cmskit/lib-jquery-ui/jquery.ui.touch-punch.js"></script>
+	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery.min.js"></script>
+	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery-ui.js"></script>
+	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery.ui.nestedSortable.js"></script>
+	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery.ui.touch-punch.js"></script>
 	<script src="'.$relpath.'inc/js/json2.js"></script>
-	<link  href="'.$relpath.'../vendor/cmskit/lib-jquery-ui/themes/'.end($_SESSION[$projectName]['config']['theme']).'/jquery-ui.css" rel="stylesheet" type="text/css" />
+	<link  href="'.$relpath.'../vendor/cmskit/jquery-ui/themes/'.end($_SESSION[$projectName]['config']['theme']).'/jquery-ui.css" rel="stylesheet" type="text/css" />
 	
 	';
 	

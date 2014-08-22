@@ -77,7 +77,7 @@ $conf = array('fields' => array());
 
 // relative js/css-paths
 $rel = '../../../';
-$css = $rel.'../vendor/cmskit/lib-jquery-ui/themes/'.end($_SESSION[$projectName]['config']['theme']).'/';
+$css = $rel.'../vendor/cmskit/jquery-ui/themes/'.end($_SESSION[$projectName]['config']['theme']).'/';
 $js  = $rel.'inc/js/';
 
 ?>
@@ -300,7 +300,7 @@ if (isset($user[0]->id))
 		var img = document.getElementById('prev');
 		if(name.length>0)
 		{
-			img.src = '<?php echo $rel?>../vendor/cmskit/lib-jquery-ui/themes/'+name+'/preview.png';
+			img.src = '<?php echo $rel?>../vendor/cmskit/jquery-ui/themes/'+name+'/preview.png';
 			img.setAttribute( 'onclick', 'setTheme(\''+name+'\');' );
 		}else{
 			img.src = 'pixel.gif';

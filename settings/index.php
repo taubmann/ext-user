@@ -31,18 +31,18 @@ function L($str) {return str_replace('_',' ',$str);}
 
 // define some paths
 $rel = '../../../';
-$css = $rel.'../vendor/cmskit/lib-jquery-ui/themes/'.end($_SESSION[$projectName]['config']['theme']).'/';
-$js  = $rel.'../vendor/cmskit/lib-jquery-ui/';
+$css = $rel.'../vendor/cmskit/jquery-ui/themes/'.end($_SESSION[$projectName]['config']['theme']).'/';
+$js  = $rel.'../vendor/cmskit/jquery-ui/';
 
 // collect Thumbnails for the Style-Switcher
-$styles = glob($rel.'../vendor/cmskit/lib-jquery-ui/themes/*', GLOB_ONLYDIR);
+$styles = glob($rel.'../vendor/cmskit/jquery-ui/themes/*', GLOB_ONLYDIR);
 $style_html = '<h3>'.L('change_theme').'</h3>';
 foreach($styles as $style)
 {
 	if(file_exists($style.'/preview.png'))
 	{
 		$n = basename($style);
-		$style_html .= '<img onclick="setTheme(\''.$n.'\')" title="'.$n.'" src="'.$rel.'../vendor/cmskit/lib-jquery-ui/themes/'.$n.'/preview.png" /> ';
+		$style_html .= '<img onclick="setTheme(\''.$n.'\')" title="'.$n.'" src="'.$rel.'../vendor/cmskit/jquery-ui/themes/'.$n.'/preview.png" /> ';
 	}
 }
 
