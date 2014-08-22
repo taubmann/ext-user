@@ -1,5 +1,5 @@
 {
-    "name": "cms-kit extension User-Management",
+    "name": "cmskit/ extension User-Management",
     "type": "library",
     "version": "0.7.0",
     "description": "User- and rights-management for cms-kit",
