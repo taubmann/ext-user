@@ -66,7 +66,7 @@ foreach ($objects as $k => $v)
 	<?php
 	echo '
 	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery.min.js"></script>
-	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery-ui.js"></script>
+	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery-ui.min.js"></script>
 	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery.ui.nestedSortable.js"></script>
 	<script src="'.$relpath.'../vendor/cmskit/jquery-ui/jquery.ui.touch-punch.js"></script>
 	<script src="'.$relpath.'inc/js/json2.js"></script>
