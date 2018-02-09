@@ -3,7 +3,7 @@
     "type": "library",
     "version": "0.7.0",
     "description": "User- and rights-management for cms-kit",
-    "license": "GPL",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Christoph Taubmann",
